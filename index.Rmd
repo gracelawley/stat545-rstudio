@@ -8,7 +8,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "STAT 545: Data wrangling, exploration, and analysis with R."
-github-repo: rstudio-education/stat545-reboot
+github-repo: gracelawley/stat545-rstudio
 twitter-handle: jennybryan
 ---
 
@@ -89,6 +89,14 @@ This book was written in [bookdown](http://bookdown.org/) inside [RStudio](http:
 
 
 This version of the book was built with:
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+# load other packages in DESCRIPTION that aren't already loaded
+other_pkgs <- c("dichromat", "gapminder", "gender", "geonames", "git2r", 
+                "gridExtra", "RColorBrewer", "rebird", "rplos", "tidyverse",
+                "viridis", "genderdata", "gt")
+purrr::walk(other_pkgs, require, character.only = TRUE)
+```
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
 session <- devtools::session_info()
