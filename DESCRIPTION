@@ -1,0 +1,35 @@
+Package: Stat545
+Type: Book
+Title: Stat545
+Version: 0.0.1
+Imports:
+    bookdown,
+    gapminder,
+    tidyverse,
+    fs,
+    testthat,
+    dichromat,
+    gridExtra,
+    usethis,
+    devtools,
+    rmarkdown,
+    knitr,
+    git2r,
+    viridis,
+    RColorBrewer,
+    rvest,
+    httr,
+    rplos,
+    rebird,
+    geonames,
+    gender,
+    genderdata,
+    xml2,
+    gt,
+    DT,
+    htmltools,
+    glue,
+    xfun
+Remotes:  
+    rstudio/gt,
+    ropensci/genderdata
