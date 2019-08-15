@@ -1,0 +1,15 @@
+---
+title: "Homework 08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--Original file: hw08_shiny.md-->
+
+# Build a Shiny app
+
+```{r links, child="links.md"}
+```

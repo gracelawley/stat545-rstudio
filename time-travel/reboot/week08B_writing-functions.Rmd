@@ -1,0 +1,13 @@
+---
+title: "Week 8B"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--Original file: cm102_writing-functions.md-->
+
+```{r links, child="links.md"}
+```

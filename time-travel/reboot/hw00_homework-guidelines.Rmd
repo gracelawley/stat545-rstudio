@@ -1,0 +1,15 @@
+---
+title: "Homework 00"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--Original file: hw00_homework-guidelines.md-->
+
+# General Homework Guidelines
+
+```{r links, child="links.md"}
+```

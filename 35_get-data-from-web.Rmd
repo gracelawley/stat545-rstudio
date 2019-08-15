@@ -1,6 +1,6 @@
 # (PART) Get data from the web {-} 
 
-# Slides
+# Slides {#web-data-slides}
 
 ```{r include = FALSE}
 source("common.R")

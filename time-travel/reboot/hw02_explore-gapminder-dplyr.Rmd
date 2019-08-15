@@ -1,0 +1,80 @@
+---
+title: "Exercise 02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--Original file: hw02_explore-gapminder-dplyr.md-->
+
+# Explore Gapminder and use `dplyr`
+
+## Overview
+
+The goal is to explore a new-to-you dataset. In particular, to begin to establish a workflow for data frames or “tibbles”. You will use `dplyr` and `ggplot2` to do some description and visualization.
+
+Remember the [sampler][wiki-sampler] concept. Your work should serve as your own personal cheatsheet in the future for things to do with a new dataset. Give yourself the cheatsheet you deserve!
+
+
+## Bring rectangular data in
+
+Work with the `gapminder` data. The Gapminder data is distributed as an [R package on CRAN][gapminder-cran].
+
+Install `gapminder` if you have not done so already and remember to load it.
+
+``` r
+install.packages("gapminder")
+library(gapminder)
+```
+
+Install and load `dplyr.` Probably via the `tidyverse` meta-package.
+
+``` r
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+## Smell test the data
+
+Explore the `gapminder` object:
+
+* Is it a data.frame, a matrix, a vector, a list?
+* What's its class?
+* How many variables/columns?
+* How many rows/observations?
+* Can you get these facts about "extent" or "size" in more than one way? Can you imagine different functions being useful in different contexts?
+* What flavor is each variable?
+  
+## Explore individual variables
+
+Pick __at least__ one categorical variable and at least one quantitative variable to explore.
+
+* Characterize what's possible, i.e. all possible values or max vs. min ... whatever's appropriate.
+* What's typical? What's the spread? What's the distribution? Etc., tailored to the variable at hand.
+* Feel free to use summary stats, tables, figures. We're NOT expecting high production value (yet).
+
+## Explore various plot types
+
+See the [`ggplot2` tutorial](https://github.com/jennybc/ggplot2-tutorial), which also uses the `gapminder` data, for ideas. 
+
+Make a few plots, probably of the same variable you chose to characterize numerically. Try to explore more than one plot type. **Just as an example** of what I mean:
+
+* A scatterplot of two quantitative variables.
+* A plot of one quantitative variable. Maybe a histogram or densityplot or frequency polygon.
+* A plot of one quantitative variable and one categorical. Maybe boxplots for several continents or countries.
+
+You don't have to use all the data in every plot! It's fine to filter down to one country or small handful of countries.
+
+## Use `filter()`, `select()`, and `%>%`
+
+## But I want to do more!
+
+## Report your process
+
+## Assess your work
+
+
+```{r links, child="links.md"}
+```

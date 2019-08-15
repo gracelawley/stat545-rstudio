@@ -1,0 +1,13 @@
+---
+title: "Week 13A"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--Original file: cm111_webdata.md-->
+
+```{r links, child="links.md"}
+```

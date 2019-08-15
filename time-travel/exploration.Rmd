@@ -1,0 +1,98 @@
+---
+title: "Time Travel Exploration"
+author: "Grace Lawley"
+date: "8/9/2019"
+output: html_document
+---
+
+# Time Travel
+
+## Prep work
+
+```{r message = FALSE, warning = FALSE}
+library(readr)
+library(knitr)
+library(purrr)
+library(dplyr)
+library(stringr)
+library(tidyr)
+```
+
+
+### Gathering the class meetings (cm) file paths
+
+The following file paths refer to the `stat545-time-travel/2017/` directory.
+
+```{r}
+cm_files <- 
+  tibble(file_path = list.files("2017/", pattern = "^cm.*\\.md")) %>% 
+  mutate(cm = str_extract(file_path, "cm[:digit:]{3}")) %>% 
+  group_by(cm) %>% 
+  nest(.key = "cm_files")
+
+cm_files
+```
+
+### Gathering the homework file paths
+
+The following file paths refer to the `stat545-time-travel/2017/` directory. So far, I haven't found a table linking each homework to a particular class meeting. The homeworks appear to be assigned within the class meetings.
+
+
+```{r}
+hw_files <- 
+  tibble(file_path = list.files("2017/", pattern = "^hw.*\\.md")) %>% 
+  filter(!str_detect(file_path, "2014")) %>%   # remove 2014/2015 homeworks
+  filter(!str_detect(file_path, "2015")) %>% 
+  separate(file_path, into = c("hw", "title"), sep = "_", remove = FALSE, extra = "merge") %>% 
+  mutate(hw = str_sub(hw, 3), title = str_sub(title, 1, -4)) %>% 
+  select(hw, title, file_path)
+
+hw_files
+```
+
+
+## Jenny's 2017 syllabus
+
+This file is a copy of `stat545-time-travel/course-admin/class-meetings/class-meetings.csv`, which was created from the original [UBC STAT 545 repo](https://github.com/STAT545-UBC/STAT545-UBC.github.io) at [this specific point in the past](https://github.com/STAT545-UBC/STAT545-UBC.github.io/commit/4b2b533e4e16b7c6aabc3df38a48a6b837c5046d). `stat545-time-travel` was created from the `STAT545-UBC` repo using `git checkout 4b2b533e4e16b7c6aabc3df38a48a6b837c5046d`.
+
+```{r}
+syllabus_raw <- read_csv("2017/class-meetings.csv")
+syllabus_raw %>% 
+  kable()
+
+```
+
+## Adapting Jenny's 2017 syllabus
+
+Restructuring the syllabus
+```{r}
+syllabus <- syllabus_raw %>% 
+  mutate(part = case_when(course == "STAT545A" ~ "I", course == "STAT547M" ~ "II"),
+         section = case_when(dow == "tues" ~ "A", dow == "thurs" ~ "B"), 
+         week = rep(seq(1, 13), each = 2),
+         week = str_c(week, section)) %>% 
+  select(part, week, raw_notes, cm)
+```
+
+Adding in the cm file paths
+```{r}
+syllabus <- syllabus %>% 
+  left_join(cm_files, by = "cm")
+
+syllabus %>% 
+  kable()
+```
+
+
+
+
+# STAT545-reboot Bookdown
+
+```{r}
+chapter_files <- list.files(path = "../", pattern = "[[:digit:]]{2}_.*\\.Rmd") %>% 
+  discard(~ .x  %in% c("39_appendix.Rmd", "40_references.Rmd")) 
+
+chapter_files %>% 
+  kable()
+```
+
