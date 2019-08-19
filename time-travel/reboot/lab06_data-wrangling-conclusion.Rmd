@@ -1,0 +1,58 @@
+# Lab 06: Data wrangling conclusion {#lab-06}
+
+```{r include = FALSE}
+source("common.R")
+```
+
+<!--Original file: hw06_data-wrangling-conclusion.md-->
+
+## Overview
+
+Pick (at least) two of the topics below and do one of the exercise prompts listed, or something comparable.
+
+## Character data
+
+Read and work through the exercises in the [Strings chapter][r4ds-strings] of [R for Data Science][r4ds].
+
+
+## Gapminder data
+
+Work with the `gapminder` data. The Gapminder data is distributed as an [R package on CRAN][gapminder-cran].
+
+Install `gapminder` if you have not done so already and remember to load it.
+
+```{r eval = FALSE}
+install.packages("gapminder")
+library(gapminder)
+```
+
+
+## Writing functions
+
+Pick one of the following:
+
+### Option 1
+
+Write one (or more) functions that do something useful to pieces of the Gapminder data. It is logical to think about computing on the mini-data frames
+corresponding to the data for each specific country. This would pair well with the prompt below about working with a nested data frame, as you could apply your function there.
+
+Make it something you can't easily do with built-in functions. Make it something that's not trivial to do with the simple `dplyr` verbs. The linear regression function [presented here](#functions-practicum) is a good starting point. You could generalize that to do quadratic regression (include a squared term) or use robust regression, using `MASS::rlm()` or `robustbase::lmrob()`.
+
+### Option 2
+
+If you plan to complete the lab where we build an R package, write a couple of experimental functions exploring some functionality that is useful to you in real life and that might form the basis of your personal package.
+ 
+## Work with the candy data
+
+## Work with a list
+
+## Work with a nested data frame
+
+## Report your process
+
+## Assess your work
+
+
+
+```{r links, child="links.md"}
+```

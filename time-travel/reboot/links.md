@@ -1,7 +1,57 @@
-<!--Slides-->
+<!--Bookdown ref links-->
+[install]: #install
+[r-basics]: #r-basics
+[r-markdown]: #r-markdown
+[version-control]: #version-control
+[basic-data-care]: #basic-data-care
+[dplyr-intro]: #dplyr-intro
+[dplyr-single]: #dplyr-single
+[import-export]: #import-export
+[factors-boss]: #factors-boss
+[character-vectors]: #character-vectors
+[character-encoding]: #character-encoding
+[date-time]: #date-time
+[multiple-tibbles]: #multiple-tibbles
+[join-cheatsheet]: #join-cheatsheet
+[lookup]: #lookup
+[r-objects]: #r-objects
+[functions-part1]: #functions-part1
+[functions-part2]: #functions-part2
+[functions-part3]: #functions-part3
+[functions-practicum]: #functions-practicum
+[graphics-overview]: #graphics-overview
+[ggplot2-tutorial]: #ggplot2-tutorial
+[effective-graphs]: #effective-graphs
+[colors]: #colors
+[qualitative-colors]: #qualitative-colors
+[secrets]: #secrets
+[save-figs]: #save-figs
+[multiple-plots]: #multiple-plots
+[package-overview]: #package-overview
+[system-prep]: #system-prep
+[package-from-scratch]: #package-from-scratch
+[automation-overview]: #automation-overview
+[automation-slides]: #automation-slides
+[make-windows]: #make-windows
+[make-test-drive]: #make-test-drive
+[automating-pipeline]: #automating-pipeline
+[web-data-slides]: #web-data-slides
+[api-wrappers]: #api-wrappers
+[diy-web-data]: #diy-web-data
+[shiny-slides]: #shiny-slides
+[shiny-tutorial]: #shiny-tutorial
+[draw-the-owl]: #draw-the-owl
+[github-browsability]: #github-browsability
+
+
+
+<!--Books-->
+[r4ds]: https://r4ds.had.co.nz
+[r4ds-strings]: https://r4ds.had.co.nz/strings.html
 
 <!--Wikipedia-->
 [wiki-sampler]: https://en.wikipedia.org/wiki/Sampler_(needlework)
 
 <!--Packages-->
 [gapminder-cran]: https://CRAN.R-project.org/package=gapminder
+[gapminder-web]: https://www.gapminder.org

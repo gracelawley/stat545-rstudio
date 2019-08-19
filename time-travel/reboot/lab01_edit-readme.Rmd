@@ -1,0 +1,14 @@
+# Lab 01: Edit `README.md` and Use R Markdown {#lab-01}
+
+```{r include = FALSE}
+source("common.R")
+```
+
+<!--Original file: hw01_edit-README.md-->
+
+<!--GL: The original STAT545 course instructors/TAs would create private repos for each student and have them stash their homeworks there. What if adapted this and had the learner create a personal repo in this homework/lab? This would make it easier to adapt the later homeworks, and then we could still keep most of the original homework 01.-->
+
+
+
+```{r links, child="links.md"}
+```

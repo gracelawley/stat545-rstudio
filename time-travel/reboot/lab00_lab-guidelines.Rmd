@@ -1,0 +1,6 @@
+# General Lab Guidelines {#lab-guidelines}
+
+<!--Original file: hw00_homework-guidelines.md-->
+
+```{r links, child="links.md"}
+```

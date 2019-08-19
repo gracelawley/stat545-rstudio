@@ -1,0 +1,10 @@
+# Lab 10: Get data from the web {#lab-10}
+
+```{r include = FALSE}
+source("common.R")
+```
+
+<!--Original file: hw10_data-from-web.md-->
+
+```{r links, child="links.md"}
+```

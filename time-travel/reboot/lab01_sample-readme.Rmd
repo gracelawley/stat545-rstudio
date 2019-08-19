@@ -1,0 +1,13 @@
+# Lab 01 Extra: A Sample `README` in the Style of GitHub Markdown {#lab-01-extra}
+
+```{r include = FALSE}
+source("common.R")
+```
+
+<!--Original file: hw01_sample_readme.md-->
+<!--GL: This is an accompanying file for hw01_edit-readme.Rmd-->
+
+
+
+```{r links, child="links.md"}
+```

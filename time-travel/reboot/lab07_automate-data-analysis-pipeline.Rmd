@@ -1,0 +1,10 @@
+# Lab 07: Automate a data analysis pipeline {#lab-07}
+
+```{r include = FALSE}
+source("common.R")
+```
+
+<!--Original file: hw07_automation.md-->
+
+```{r links, child="links.md"}
+```

@@ -1,0 +1,10 @@
+# Lab 08: Build a Shiny app {#lab-08}
+
+```{r include = FALSE}
+source("common.R")
+```
+
+<!--Original file: hw08_shiny.md-->
+
+```{r links, child="links.md"}
+```
