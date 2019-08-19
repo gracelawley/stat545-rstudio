@@ -18,7 +18,7 @@
 [functions-part2]: #functions-part2
 [functions-part3]: #functions-part3
 [functions-practicum]: #functions-practicum
-[graphics-slides]: #graphics-slides
+[graphics-overview]: #graphics-overview
 [ggplot2-tutorial]: #ggplot2-tutorial
 [effective-graphs]: #effective-graphs
 [colors]: #colors
@@ -26,10 +26,10 @@
 [secrets]: #secrets
 [save-figs]: #save-figs
 [multiple-plots]: #multiple-plots
-[package-overview]: -#package-overview
+[package-overview]: #package-overview
 [system-prep]: #system-prep
 [package-from-scratch]: #package-from-scratch
-[automation-overview]: -#automation-overview
+[automation-overview]: #automation-overview
 [automation-slides]: #automation-slides
 [make-windows]: #make-windows
 [make-test-drive]: #make-test-drive

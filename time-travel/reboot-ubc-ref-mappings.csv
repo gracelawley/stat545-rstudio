@@ -19,7 +19,7 @@ R objects and indexing,{#r-objects},http://stat545.com/block004_basic-r-objects.
 "Write your own R functions, part 2",{#functions-part2},https://stat545.com/block011_write-your-own-function-02.html,functions-part2
 "Write your own R functions, part 3",{#functions-part3},https://stat545.com/block011_write-your-own-function-03.html,functions-part3
 Function-writing practicum,{#functions-practicum},https://stat545.com/block012_function-regress-lifeexp-on-year.html,functions-practicum
-R graphics landscape,{#graphics-slides},https://stat545.com/graph00_index.html,graphics-slides
+Overview,{-#graphics-overview},https://stat545.com/graph00_index.html,graphics-overview
 ggplot2 tutorial,{#ggplot2-tutorial},https://stat545.com/graph00_index.html,ggplot2-tutorial
 Do's and don'ts of making effective graphics,{#effective-graphs},https://stat545.com/block015_graph-dos-donts.html,effective-graphs
 Using colors in R,{#colors},http://stat545.com/block018_colors.html,colors

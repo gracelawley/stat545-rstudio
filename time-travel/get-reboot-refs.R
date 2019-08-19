@@ -64,7 +64,7 @@ chapter_headers <- chapter_html %>%
 # Assemble the master refs data frame -------------------------------------
 
 ## skip these chapters b/c they don't have an ubc ref, do so manually b/c quickest for now
-skip_these <- c("Tidy data", "Write your first R package", "More example pipelines", 
+skip_these <- c("Tidy data", "R graphics landscape", "Write your first R package", "More example pipelines", 
                 "Short random things", "Deprecated")
 
 refs_df <- tibble(chapter_headers) %>% 
@@ -82,7 +82,7 @@ refs_df <- tibble(chapter_headers) %>%
 links_md <- refs_df %>% 
   select(bookdown_ref_clean, bookdown_ref) %>% 
   mutate(bookdown_ref_clean = str_c("[", bookdown_ref_clean, "]"),
-         bookdown_ref = str_extract(bookdown_ref, "(?<=\\{).*(?=\\})")) %>% 
+         bookdown_ref = str_extract(bookdown_ref, "#.*(?=\\})")) %>% 
   transmute(entry = str_c(bookdown_ref_clean, bookdown_ref, sep = ": "))
 
 
