@@ -7,8 +7,8 @@ before_install:
   - npm i netlify-cli -g
   - export DEPLOY_MSG="${TRAVIS_COMMIT:0:7} ${TRAVIS_COMMIT_MESSAGE:0:70}"
 
-#env:
-#  - NETLIFY_SITE_ID=82ff5a18-8a13-4f25-b688-230b04bc5664
+env:
+  - NETLIFY_SITE_ID=00037c97-09d7-462e-83a3-f872b559a4e5
   # NETLIFY_AUTH_TOKEN set in travis settings
 
 script:
