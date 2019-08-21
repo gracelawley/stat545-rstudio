@@ -53,6 +53,7 @@
 
 [tidyr-web]: https://tidyr.tidyverse.org
 [tidyr-cran]: https://CRAN.R-project.org/package=tidyr 
+[tidyr-github]: https://github.com/tidyverse/tidyr
 
 [readr-web]: https://readr.tidyverse.org
 [readr-vignette-intro]: https://cran.r-project.org/web/packages/readr/vignettes/readr.html
@@ -191,6 +192,10 @@
 [purrr-web]: https://purrr.tidyverse.org
 [curl-cran]: https://CRAN.R-project.org/package=curl
 
+[datatable-github]: https://github.com/Rdatatable/data.table/
+
+[reshape-github]: https://github.com/hadley/reshape
+
 <!--Shiny links-->
 [shinydashboard-web]: https://rstudio.github.io/shinydashboard/
 [shinydashboard-cran]: https://CRAN.R-project.org/package=shinydashboard
@@ -221,6 +226,7 @@
 
 [r4ds]: https://r4ds.had.co.nz
 [r4ds-transform]: https://r4ds.had.co.nz/transform.html
+[r4ds-tidy-data]: https://r4ds.had.co.nz/tidy-data.html
 [r4ds-strings]: https://r4ds.had.co.nz/strings.html
 [r4ds-readr-strings]: https://r4ds.had.co.nz/data-import.html#readr-strings
 [r4ds-dates-times]: https://r4ds.had.co.nz/dates-and-times.html
@@ -250,6 +256,7 @@
 [worry-about-color]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwi0xYqJ8JbjAhWNvp4KHViYDxsQFjABegQIABAC&url=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FAhmed_Elhattab2%2Fpost%2FPlease_suggest_some_good_3D_plot_tool_Software_for_surface_plot%2Fattachment%2F5c05ba35cfe4a7645506948e%2FAS%253A699894335557644%25401543879221725%2Fdownload%2FWhy%2BShould%2BEngineers%2Band%2BScientists%2BBe%2BWorried%2BAbout%2BColor_.pdf&usg=AOvVaw1qwjjGMd7h_z6TLUjzu7Nb
 [escaping-rgbland-pdf]: https://eeecon.uibk.ac.at/~zeileis/papers/Zeileis+Hornik+Murrell-2009.pdf
 [escaping-rgbland-doi]: https://doi.org/10.1016/j.csda.2008.11.033
+[grammar-of-graphics]: https://vita.had.co.nz/papers/layered-grammar.html
 
 
 <!--R Documentation-->
@@ -287,6 +294,7 @@
 
 
 <!--Misc. Links-->
+[lotr-data]: https://github.com/jennybc/lotr
 [split-apply-combine]: https://www.jstatsoft.org/article/view/v040i01
 [useR-2014-dropbox]: https://www.dropbox.com/sh/i8qnluwmuieicxc/AAAgt9tIKoIm7WZKIyK25lh6a
 [gh-pages]: https://pages.github.com
@@ -295,7 +303,6 @@
 [dataschool-dplyr]: https://www.dataschool.io/dplyr-tutorial-for-faster-data-manipulation-in-r/
 [xckd-randall-munroe]: https://fivethirtyeight.com/features/xkcd-randall-munroe-qanda-what-if/
 [athena-zeus-forehead]: https://tinyurl.com/athenaforehead
-[tidydata-lotr]: https://github.com/jennybc/lotr-tidy#readme
 [minimal-make]: https://kbroman.org/minimal_make/
 [write-data-tweet]: https://twitter.com/vsbuffalo/statuses/358699162679787521
 [belt-and-suspenders]: https://www.wisegeek.com/what-does-it-mean-to-wear-belt-and-suspenders.htm
