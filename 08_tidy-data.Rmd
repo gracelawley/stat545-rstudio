@@ -140,7 +140,7 @@ make_three_lotr <- function(gt_left, gt_mid, gt_right) {
 ```{r echo = FALSE}
 table_colors <- list(fellowship = "#edc7fc", # lilac
                      towers = "#cce6f6", # light blue
-                     king = "#daffb3" # lime
+                     king = "#fad6c8" # salmon
                      )
 fellowship_gt <- make_lotr_table(untidy_films[["The Fellowship Of The Ring"]], 
                             "The Fellowship Of The Ring") %>% 
@@ -197,9 +197,6 @@ gt(lotr_tidy) %>%
     style = cell_fill(color = table_colors[["king"]]),
     locations = cells_data(rows = Film == "The Return Of The King")
   ) 
-
-
-
 ```
 
 
