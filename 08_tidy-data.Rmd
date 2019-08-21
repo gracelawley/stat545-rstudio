@@ -261,7 +261,7 @@ Our summing over gender to get word counts for combinations of film and race is 
 
 <!--TODO: One external link to the "Split-Apply-Combine" page on the original stat545 site (is marked as WIP, has not been incorporated into the STAT545 reboot as of now)-->
 
-* Simple aggregation with the tidyverse: `dplyr::count()` and `dplyr::group_by()` + `dplyr::summarize()`, Chapter \@ref(might-group-by), [Data transformation][r4ds-transform] chapter in R for Data Science [@wickham2016].
+* Simple aggregation with the tidyverse: `dplyr::count()` and `dplyr::group_by()` + `dplyr::summarize()`, Chapter \@ref(mighty-group-by), [Data transformation][r4ds-transform] chapter in R for Data Science [@wickham2016].
 * General aggregation with the tidyverse: [STAT 545 coverage](http://stat545.com/block024_group-nest-split-map.html) of general Split-Apply-Combine via nested data frames.
 * Simple aggregation with base R: `aggregate()`.
 * General aggregation with base R: `tapply()`, `split()`, `by()`, etc.
